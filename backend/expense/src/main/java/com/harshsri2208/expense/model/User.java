@@ -8,19 +8,18 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Data
-@Table(name = "user")
+@Table(name="user")
 public class User {
 
 	@Id
-	private Long id;
+	private String id;
 	
-	private String name;
+	private String  name;
 	
 	private String email;
-	
-	
+
 }
